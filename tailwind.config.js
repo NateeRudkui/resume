@@ -9,7 +9,11 @@ module.exports = {
     
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'hero-pattern': "url('/public/images/red.jpg')",
+      }
+    },
   },
   plugins: [ flowbite.plugin(),],
 };
