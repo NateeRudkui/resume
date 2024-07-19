@@ -1,10 +1,15 @@
-import IconData from "../data/IconData"
-import HardSkil from "./HardSkil"
+import HardSkillData from "../data/HardSkillData";
 
-const AllHeardSkill = ()=>{
-    return(<div className="flex">{IconData.map((data,index)=>{
-        return(<HardSkil key={index} {...data}/>)
-      })}</div>)
-}
+import SkillIcon from "./SkillIcon";
 
-export default AllHeardSkill
+const AllHeardSkill = () => {
+  return (
+    <div className="flex">
+      {HardSkillData.map((data, index) => {
+        return <SkillIcon key={index} {...data} />;
+      })}
+    </div>
+  );
+};
+
+export default AllHeardSkill;

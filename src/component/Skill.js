@@ -9,7 +9,7 @@ const Skill = () => {
             <box-icon name="laptop" size="80px" color='#cb3030'></box-icon>
             <p className="text-center text-[4rem] ">Hard Skill</p>
           </div>
-          <div className="flex flex-row items-center">
+          <div className="flex flex-row items-center text-[20px]">
             <ul className="mx-[150px] ">
               <li>JavaScript</li>
               <li>HTML</li>
@@ -39,7 +39,7 @@ const Skill = () => {
             <box-icon type="solid" name="user-check" size="80px" color='#cb3030'></box-icon>
             <p className=" text-[4rem] ">Soft Skill</p>
           </div>
-          <ul className="mx-[150px]">
+          <ul className="mx-[150px] text-[20px]">
             <li>ความฉลาดด้านอารมณ์และความเข้าอกเข้าใจผู้อื่น</li>
             <li>ทักษะการทำงานร่วมกับผู้อื่น และการทำงานเป็นทีม</li>
             <li>ทักษะการสื่อสารระหว่าบุคคล</li>

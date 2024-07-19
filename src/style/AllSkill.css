@@ -1,0 +1,8 @@
+.allskill{
+    color: #252625;
+}
+
+.allskill h1 {
+    font-size: 50px;
+    @apply py-[20px] pl-[1rem];
+}

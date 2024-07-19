@@ -1,0 +1,9 @@
+.slidel{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    margin: 0 10px;
+    border: 2 px solid;
+    border-color: #252625;
+}

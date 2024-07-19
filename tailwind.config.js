@@ -11,8 +11,8 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'hero-pattern': "url('/public/images/red.jpg')",
-      }
+        'hero-pattern': "url('/public/images/space.avif')",
+      },
     },
   },
   plugins: [ flowbite.plugin(),],

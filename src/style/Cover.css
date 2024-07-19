@@ -1,0 +1,28 @@
+@keyframes moveUpDown {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-30px); /* ปรับค่านี้เพื่อกำหนดระยะการขยับขึ้น */
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+/* กำหนดสไตล์สำหรับรูปภาพ */
+.images-profile {
+    display: block;
+    margin: 50px auto;
+    animation: moveUpDown 2s infinite; /* กำหนดระยะเวลาการทำงานของแอนิเมชัน */
+}
+
+
+.images-profile img{
+    width: auto;
+    height: 100%;
+}
+
+.iam{
+    color: #D98236;
+}
