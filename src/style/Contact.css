@@ -1,5 +1,5 @@
 .icon-neme{
-    font-size: 30px;
+    font-size: 2.5vw;
     letter-spacing: 0.15em;
 }
 
@@ -14,7 +14,7 @@
     text-shadow: 0 0 5px #D98236;
 }
 
-@keyframes moveUpDown {
+@keyframes moveUpAndDown {
     0% {
         transform: translateY(0);
     }
@@ -33,5 +33,26 @@
 }
 
 .nt {
-    animation: moveUpDown 5s infinite; 
+    animation: moveUpAndDown 5s infinite; 
 }
+
+@media (min-width: 769px) and (max-width:1280px) {
+    .contact-icon{
+        justify-content: center;
+     }
+     .icon-neme{
+        font-size: 4.5vw;
+    }
+}
+
+@media (max-width: 768px) {
+    .icon-neme{
+        font-size: 6vw;
+        letter-spacing:0;
+    }
+    .contact-icon{
+        justify-content: center;
+     }
+}
+
+

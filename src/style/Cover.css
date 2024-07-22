@@ -3,7 +3,7 @@
         transform: translateY(0);
     }
     50% {
-        transform: translateY(-30px); /* ปรับค่านี้เพื่อกำหนดระยะการขยับขึ้น */
+        transform: translateY(-50px); /* ปรับค่านี้เพื่อกำหนดระยะการขยับขึ้น */
     }
     100% {
         transform: translateY(0);
@@ -26,3 +26,10 @@
 .iam{
     color: #D98236;
 }
+
+@media (max-width: 768px) {
+    .images-profile {
+        display: none;
+    }
+  }
+
