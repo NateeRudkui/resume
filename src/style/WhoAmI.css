@@ -1,70 +1,76 @@
-.aboutme-text{
-    color: #F2F2F2;
-    text-align: justify;
+.aboutme-text {
+  color: #f2f2f2;
+  text-align: justify;
 }
 
-.aboutme-text h1{
-    font-weight: bolder;
-    font-size: 50px;
-    color: #D98236;
+.aboutme-text h1 {
+  font-weight: bolder;
+  font-size: 50px;
+  color: #d98236;
 }
 
-.frame{
-    width: 80%;
-    height: 70%;
-    border: 50px solid;
-    border-image:url('../../public/images/space.avif') 50 50;
-    position: absolute;
-    z-index:1;
-    animation: frame 5s linear infinite;
+.frame {
+  width: 80%;
+  height: 70%;
+  border: 50px solid;
+  border-image: url("../../public/images/space.avif") 50 50;
+  position: absolute;
+  z-index: 1;
+  animation: frame 5s linear infinite;
 }
 
-@keyframes frame{
-    0%{
-        transform: scale(.9);
-        opacity: 0;
-    }
-    20%{
-        transform: scale(1);
-        opacity: 1;
-    }
-    80%{
-        transform: scale(1);
-        opacity: 1;
-    }
-    100%{
-        transform: scale(0.9);
-        opacity: 0;
-    }
-}
-
-
-.slide{
-    position: absolute;
-    left: 70px;
+@keyframes frame {
+  0% {
+    transform: scale(0.9);
     opacity: 0;
-    animation: slider 5s infinite;
+  }
+  20% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  80% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(0.9);
+    opacity: 0;
+  }
 }
 
-.slide img{
-    z-index: -1;
+.slide {
+  position: absolute;
+  left: 70px;
+  opacity: 0;
+  animation: slider 5s infinite;
 }
 
-@keyframes slider{
-    0%{
-        transform: translateX(50px);
-        opacity: 0;
-    }
-    30%{
-        transform: translateX(-50px);
-        opacity: 1;
-    }
-    50%{
-        transform: translateX(-50px);
-        opacity: 1;
-    }
-    100%{
-        transform: translateX(-200px);
-        opacity: 0;
-    }
+.slide img {
+  z-index: -1;
 }
+
+@keyframes slider {
+  0% {
+    transform: translateX(50px);
+    opacity: 0;
+  }
+  30% {
+    transform: translateX(-50px);
+    opacity: 1;
+  }
+  50% {
+    transform: translateX(-50px);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(-200px);
+    opacity: 0;
+  }
+}
+
+@media (min-width: 769px) and (max-width:1280px) {
+    .frame {
+      border: 40px solid;
+      border-image: url("../../public/images/space.avif") 50 50;
+    }
+  }
