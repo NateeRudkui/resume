@@ -8,9 +8,9 @@ const Contact = () => {
         CONTACT INFO
       </h1>
       <div className="allcontact flex tablet:flex-col phone:flex-col">
-        <div className="contact-map basis-1/2 h-[600px]  flex justify-center">
+        <div className="contact-map basis-1/2 h-[600px] flex justify-center">
           <iframe
-          className="tablet:h-[500px] mb-[30px]"
+          className="mb-[30px] tablet:h-[500px] phone:h-[300px]"
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d968.4461930682037!2d100.38512322821035!3d13.851954017522738!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e291e5c2faf0e3%3A0xb04a57aa7a43d79!2z4LiaLuC5gOC4reC5h-C4oSDguYDguK3guYfguKEg4LiL4Li1IOC5geC4oeC4leC4l-C4teC5gOC4o-C4teC4ouC4peC4iOC4s-C4geC4seC4lA!5e0!3m2!1sth!2sth!4v1721273640040!5m2!1sth!2sth"
             width="80%"
             height="100%"
