@@ -14,6 +14,10 @@ module.exports = {
         'hero-pattern': "url('/public/images/space.avif')",
       },
     },
+    screens: {
+      'phone': {'max':'768px'},
+      'tablet': {'min':'769px','max':'1280px'},
+    },
   },
   plugins: [ flowbite.plugin(),],
 };
