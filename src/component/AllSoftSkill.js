@@ -3,7 +3,7 @@ import SkillIcon from "./SkillIcon";
 
 const AllSoftSkill = () => {
   return (
-    <div className="flex ">
+    <div className="flex flex-wrap phone:justify-center">
       {SoftSkillData.map((data, index) => {
         return <SkillIcon key={index} {...data} />;
       })}
