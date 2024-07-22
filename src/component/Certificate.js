@@ -26,8 +26,8 @@ const Certificate = () => {
     setCurrenIndex(slideIndex);
   };
   return (
-    <div className="w-screen h-auto bg-[#BF814B]">
-      <div className="max-w-[1400px] h-[780px] w-full m-auto py-16 px-4 relative group">
+    <div className="w-auto h-auto bg-[#BF814B]">
+      <div className="w-[70%] h-[780px] w-full m-auto py-16 px-4 relative group">
         <img
           src={slides[currenIndex].images}
           className="w-full h-full m-auto rounde-2xl bg-center bg-cover duration-500"

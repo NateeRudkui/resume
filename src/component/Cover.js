@@ -43,14 +43,12 @@ const Cover = () => {
   };
 
   return (
-    <div className="flex flex-row  h-screen bg-hero-pattern bg-cover bg-center ">
-      <div className="flex  w-screen h-auto">
-        <div className="basis-1/2 content-center pl-[5rem]">
-          <p className="text-[25px]  text-white">Hello, My Name Is</p>
-          <p className="text-[100px]  text-white">NATEE RUDKUI</p>
-          <p className="iam text-[25px]  text-white">
-            {text}
-          </p>
+    <div className="uppercase flex flex-row  h-screen bg-hero-pattern bg-cover bg-center phone:text-center">
+      <div className="flex  w-screen h-auto overflow-hidden">
+        <div className="basis-1/2 content-center pl-[5rem] w-screen">
+          <p className="text-[25px]  text-white ">Hello, My Name Is</p>
+          <p className="text-[100px]  text-white phone:text-[60px]">NATEE RUDKUI</p>
+          <p className="iam text-[25px]  text-white ">-{text}</p>
         </div>
         <div className="images-profile basis-1/2 content-center group">
           <img src="images/NT_space.png" className=" group-hover:hidden"></img>

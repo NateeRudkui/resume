@@ -2,17 +2,16 @@ import "../style/WhoAmI.css";
 
 const WhoAmI = () => {
   return (
-    <div className="flex w-auto h-screen px-[5rem] py-[5rem] bg-[#252625]">
+    <div className="flex w-auto h-screen px-[5rem] py-[5rem] bg-[#252625] phone:flex-col">
       <div className="basis-1/2 relative flex justify-center ">
         <div className="frame"></div>
         <div className="slide w-full h-full flex justify-center items-center">
-          <img src="images/NT_2.png" className="w-auto h-[90%]" />
+          <img src="images/NT_2.png" className="w-auto h-[90%] tablet:w-[80%]" />
         </div>
       </div>
       <div className="aboutme-text basis-1/2 w-[700px] h-auto items-center">
-        <h1>Who Am I</h1>
+        <h1 className="">Who Am I</h1>
         <p className="text-[20px]">
-          {" "}
           สวัสดีครับผมชื่อ นายนที รัดคุ่ย ชื่อเล่นชื่อที
           ขณะนี้กำลังศึกษาในสาขาวิศวกรรมคอมพิวเตอร์
           มีความชอบและสนใจในด้านเทตโนโลยีอย่างมากจึงอยากทำงานด้านเทคโนโลยีต่าง
