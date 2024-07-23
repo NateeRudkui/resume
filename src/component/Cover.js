@@ -51,7 +51,7 @@ const Cover = () => {
           <p className="iam text-[25px]  text-white ">-{text}</p>
         </div>
         <div className="images-profile basis-1/2  content-center group">
-          <img src="images/NT_space.png" className=" group-hover:hidden"></img>
+          <img src="images/nt_space.png" className=" group-hover:hidden"></img>
           <img
             src="images/nt_space_super.png"
             className="hidden group-hover:block"
