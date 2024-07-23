@@ -3,10 +3,10 @@ import "../style/Workhistory.css";
 const Workhistory = () => {
   return (
     <div className="h-full bg-[#383840] text-white ">
-      <div className="px-[150px] py-[150px] flex justify-center">
-        <div className="grid justify-items-center w-[700px] h-auto">
+      <div className="px-[150px] py-[150px] tablet:px-[100px] phone:px-[10px] flex tablet:block phone:block justify-center">
+        <div className="grid justify-items-center basis-1/2 h-auto tablet:mb-[5rem] phone:mb-[5rem]">
           <img src="images/odde.png" className="w-[300px] h-[300px] pb-[50px]" />
-          <div className="px-[30px]">
+          <div className="px-[30px] ">
             <p className="name_copany text-[30px]">ODD-E Thailand</p>
             <p className="text-[20px]">ประสบการณ์ทำงาน 1 ปีครึ่ง</p>
             <p className="text-[20px]">
@@ -16,7 +16,7 @@ const Workhistory = () => {
             </p>
           </div>
         </div>
-        <div className="grid justify-items-center w-[700px] h-auto">
+        <div className="grid justify-items-center basis-1/2 h-auto">
           <img src="images/TKS.png" className="w-[300px] h-[300px] pb-[50px]" />
           <div className="px-[30px]">
             <p className="name_copany text-[30px]">TKS Softvision</p>
