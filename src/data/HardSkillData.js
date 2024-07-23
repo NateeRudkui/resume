@@ -51,6 +51,10 @@ const HardSkillData = [
     img_icon: "./images/Ps.png",
     name_icon: "Photoshop",
   },
+  {
+    img_icon: "./images/responsive-design.png",
+    name_icon: "responsive",
+  },
 ];
 
 export default HardSkillData;
