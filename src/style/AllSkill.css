@@ -6,3 +6,8 @@
     font-size: 50px;
     @apply py-[20px] pl-[1rem];
 }
+
+.skill-titel{
+    text-shadow: 5px 5px 0 #d98236;
+    font-weight: bold;
+}

@@ -1,6 +1,7 @@
 .aboutme-text {
   color: #f2f2f2;
   text-align: justify;
+  white-space: normal;
 }
 
 .aboutme-text h1 {
