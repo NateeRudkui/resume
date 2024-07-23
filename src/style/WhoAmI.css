@@ -74,3 +74,10 @@
       border-image: url("../../public/images/space.avif") 50 50;
     }
   }
+
+  @media (max-width: 768px) {
+    .frame {
+      border: 30px solid;
+      border-image: url("../../public/images/space.avif") 50 50;
+    }
+  }
