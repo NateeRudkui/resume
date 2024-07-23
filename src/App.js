@@ -1,14 +1,9 @@
-import Navbar from "./component/Navbar";
+
 import Cover from "./component/Cover";
-import Skill from "./component/Skill";
 import Workhistory from "./component/Workhistory";
 import Certificate from "./component/Certificate";
 import Contact from "./component/Contact";
-
 import React, { useRef } from 'react';
-
-import AllHeardSkill from "./component/AllHeardSkill";
-import AllSoftSkill from "./component/AllSoftSkill";
 import AllSkill from "./component/AllSkill";
 import WhoAmI from "./component/WhoAmI";
 
